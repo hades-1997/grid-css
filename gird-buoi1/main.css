@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.layout-item{
+    height: 800px;
+}
+
+.layout {
+
+    display: grid;
+    /* grid-teamplate-columns: column-size column-size ....  */
+    /* grid-template-columns: 200px 200px 100px; */
+    /* grid-template-columns: calc(33%-22px) calc(33%-22px) 33%; */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* gap: grid-row-gap grid-column-gap */
+    /* gap count: column  count - 1 */
+    /* grid-column-gap: 20px;
+    grid-row-gap: 20px; */
+    grid-gap: 20px 40px;
+    /* grid-template-rows: auto; */
+    /* track line: 1 2 3 4  */
+    /* So cot 3: track line = so cot + 1 */
+
+}
