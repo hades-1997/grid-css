@@ -1,5 +1,7 @@
 # Chia số cột 
- /*grid-teamplate-columns: column-size column-size ....*/
+
+ /*grid-teamplate-columns: column-size column-size .... */
+ 
  /*Chia số columns theo size cho sẵn px*/
 + grid-template-columns: 200px 200px 100px;
 
